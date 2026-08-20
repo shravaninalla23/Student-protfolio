@@ -19,6 +19,15 @@
             padding: 50px 20px;
         }
 
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid white;
+            margin-bottom: 15px;
+        }
+
         section {
             background: white;
             margin: 20px;
@@ -28,6 +37,21 @@
 
         h2 {
             color: #6c5ce7;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #6c5ce7;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #4834d4;
         }
 
         footer {
@@ -42,7 +66,8 @@
 <body>
 
     <header>
-        <img src="https://github.com/shravaninalla23/Student-protfolio/blob/main/IMG_20260124_094122.png" alt="Shravani Nalla" width="150">
+        <img src="shravani.jpg" alt="Shravani Nalla">
+
         <h1>Welcome to Shravani Nalla's Portfolio</h1>
         <p>Student | Learner | Future Developer</p>
     </header>
@@ -50,8 +75,8 @@
     <section>
         <h2>About Me</h2>
         <p>
-            Hello! I am <strong>Shravani Nalla</strong>, a student and this is my first
-            portfolio website. I am learning programming and web development.
+            Hello! I am <strong>Shravani Nalla</strong>, a student and this is my
+            first portfolio website. I am learning programming and web development.
         </p>
     </section>
 
@@ -67,11 +92,16 @@
     <section>
         <h2>My Projects</h2>
         <p>My first project is this Student Portfolio Website.</p>
+
+        <a href="#contact" class="btn">Contact Me</a>
     </section>
 
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <strong>shravaninalla23@gmail.com</strong></p>
+        <p>
+            Email:
+            <strong>shravaninalla23@gmail.com</strong>
+        </p>
     </section>
 
     <footer>
